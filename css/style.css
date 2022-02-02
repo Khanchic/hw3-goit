@@ -8,7 +8,16 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+/* хедер для всех */
+.menu {
+  display: flex;
+}
+.menu_list {
+  margin-right: 50px;
+}
+.menu_list:last-child {
+  margin-right: 0;
+}
 .webstydia {
   text-decoration: none;
   cursor: pointer;
@@ -57,6 +66,7 @@ body {
 .bly {
   color: #2196f3;
 }
+
 .mail {
   font-size: 14px;
   font-weight: 500;
@@ -76,6 +86,7 @@ body {
 }
 .call {
   list-style: none;
+  display: flex;
 }
 /* конец общей верхней части */
 /* главная */
@@ -269,10 +280,4 @@ body {
 }
 .call-2 {
   list-style: none;
-}
-ul,
-li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
