@@ -8,16 +8,31 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 .ul,
 li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
 /* хедер для всех */
-
+.heading {
+  border-bottom: 1px solid #ececec;
+}
 .all_in {
   display: flex;
   align-items: center;
@@ -222,6 +237,14 @@ li {
 }
 .item {
   margin-right: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid #eeeeee;
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .peoples {
@@ -278,8 +301,21 @@ li {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  text-align: left;
 }
-.item {
+.item_3 {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.pictures {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .bot-title {
   font-size: 18px;
