@@ -8,9 +8,25 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.ul,
+li {
+  list-style: none;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* хедер для всех */
+
+.all_in {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .menu {
   display: flex;
+  list-style: none;
 }
 .menu_list {
   margin-right: 50px;
@@ -27,6 +43,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 93px;
 }
 .shit {
   color: #212121;
@@ -87,16 +104,27 @@ body {
 .call {
   list-style: none;
   display: flex;
+  margin-left: auto;
+}
+.call_top {
+  margin-right: 50px;
+}
+.call_top:last-child {
+  margin-right: 0;
 }
 /* конец общей верхней части */
 /* главная */
 .main__hi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 600px;
   left: 0px;
-
   background: #2f303a;
 }
 .hi__title {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -117,15 +145,19 @@ body {
   border-radius: 4px;
   text-align: center;
 }
-.content__what_title {
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
+.main__content {
+  text-decoration: none;
 }
-
+.content__adv {
+  display: flex;
+  margin-right: 30px;
+}
+.content__adv:first-child {
+  padding-left: 0;
+}
+.content__adv:last-child {
+  margin-right: 0;
+}
 .content__adv_item-title-text {
   font-size: 14px;
   font-weight: 700;
@@ -147,12 +179,28 @@ body {
   text-align: left;
   color: #757575;
 }
-.main__content {
-  text-decoration: none;
+.interactiv {
+  margin-right: 30px;
+}
+.interactiv:last-child {
+  margin-right: 0;
+}
+/*.interactiv:first-child {
+  
+}
+*/
+.content__what_title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .content__what_imgs {
   list-style: none;
+  display: flex;
 }
 
 .workspake {
@@ -160,13 +208,20 @@ body {
 }
 .items-2 {
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 .team {
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
+}
+.item {
+  margin-right: 30px;
 }
 .peoples {
   font-size: 16px;
@@ -184,7 +239,18 @@ body {
   color: #757575;
 }
 /* Главная конец */
-
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.port-butts {
+  margin-right: 8px;
+  margin-bottom: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
 .button {
   border: none;
   font-family: inherit;
@@ -206,8 +272,11 @@ body {
   color: #ffffff;
   background-color: #2196f3;
 }
+/* Карттинки */
 .items {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 .bot-title {
   font-size: 18px;
@@ -236,7 +305,10 @@ body {
 /* Футер для всех */
 .end {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
 .webstydia_2 {
   text-decoration: none;
   cursor: pointer;
@@ -280,4 +352,5 @@ body {
 }
 .call-2 {
   list-style: none;
+  padding-left: 0;
 }
