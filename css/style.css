@@ -223,6 +223,7 @@ li {
 .item {
   margin-right: 30px;
 }
+
 .peoples {
   font-size: 16px;
   line-height: 1.18;
@@ -277,6 +278,8 @@ li {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+}
+.item {
 }
 .bot-title {
   font-size: 18px;
