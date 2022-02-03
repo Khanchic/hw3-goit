@@ -23,12 +23,7 @@ li {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
+
 /* хедер для всех */
 .heading {
   border-bottom: 1px solid #ececec;
@@ -241,7 +236,7 @@ p {
   text-align: center;
   border: 1px solid #eeeeee;
   background: #ffffff;
-  /* material shadow v1 */
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -303,11 +298,11 @@ p {
   flex-wrap: wrap;
   text-align: left;
 }
+
 .item_3 {
   background: #ffffff;
   border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -316,6 +311,9 @@ p {
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.pictures:nth-child(3n) {
+  margin-right: 0;
 }
 .bot-title {
   font-size: 18px;
