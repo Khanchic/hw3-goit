@@ -32,12 +32,12 @@ p {
 /* хедер для всех */
 .heading {
   border-bottom: 1px solid #ececec;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .all_in {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .menu {
   display: flex;
@@ -134,7 +134,10 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
   left: 0px;
   background: #2f303a;
 }
@@ -170,6 +173,9 @@ p {
 .main_text_content {
   margin-right: 30px;
 }
+.main_text_content:last-child {
+  margin-right: 0;
+}
 
 .content__adv_item-title-text {
   font-size: 14px;
@@ -178,8 +184,8 @@ p {
   letter-spacing: 0.03em;
   text-align: left;
   color: #212121;
-  margin-bottom: 10px;
-  margin-top: 94px;
+  padding-bottom: 10px;
+  padding-top: 94px;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -240,7 +246,6 @@ p {
   text-align: center;
   border: 1px solid #eeeeee;
   background: #ffffff;
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -271,11 +276,11 @@ p {
 }
 .port-butts {
   margin-right: 8px;
-  margin-bottom: 50px;
 }
 .buttons {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .button {
   border: none;
@@ -379,6 +384,7 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding-bottom: 9px;
 }
 
 .shit-2 {
@@ -391,6 +397,7 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  padding-bottom: 9px;
 }
 .telefon_2 {
   width: 231px;
@@ -400,6 +407,9 @@ p {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+.nav_bottom {
+  padding-bottom: 9px;
 }
 .call-2 {
   list-style: none;
