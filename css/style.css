@@ -129,6 +129,7 @@ p {
 }
 /* конец общей верхней части */
 /* главная */
+/* С груповой фоткой+ модальное меню */
 .main__hi {
   display: flex;
   justify-content: center;
@@ -163,7 +164,7 @@ p {
   cursor: pointer;
   border-radius: 4px;
   text-align: center;
-}
+} /* С Иконками svg */
 .main__content {
   text-decoration: none;
 }
@@ -178,6 +179,7 @@ p {
 }
 
 .content__adv_item-title-text {
+  width: 270px;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -208,6 +210,7 @@ p {
   
 }
 */
+/* 3 фотографии */
 .content__what_title {
   font-size: 36px;
   line-height: 1.16;
@@ -230,7 +233,7 @@ p {
   display: flex;
   justify-content: center;
 }
-
+/* Люди с svg */
 .team {
   display: flex;
   justify-content: center;
@@ -242,13 +245,16 @@ p {
 }
 .item {
   margin-right: 30px;
-  margin-bottom: 30px;
+
   text-align: center;
   border: 1px solid #eeeeee;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.item:last-child {
+  margin-right: 0;
 }
 .peoples_icon {
   margin-bottom: 30px;
@@ -269,6 +275,7 @@ p {
 
   color: #757575;
 }
+/* Будет блок */
 /* Главная конец */
 .main {
   display: flex;
@@ -307,6 +314,7 @@ p {
 
 .items {
   list-style: none;
+  width: 1200px;
   display: flex;
   flex-wrap: wrap;
   text-align: left;
@@ -317,10 +325,11 @@ p {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .blocks {
-  margin-right: 30px;
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 .blocks:nth-child(3n) {
   margin-right: 0;
@@ -331,9 +340,7 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.pictures:nth-child(3n) {
-  margin-right: 0;
-}
+
 .bot-title {
   font-size: 18px;
   font-weight: 700;
@@ -350,13 +357,13 @@ p {
   text-align: left;
   color: #757575;
 }
-
+/*
 .bot {
   width: 370px;
   height: 294px;
   left: 215px;
   top: 262px;
-}
+}*/
 
 /* Футер для всех */
 .end {
@@ -374,6 +381,9 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  display: block;
 }
 
 .adress {
@@ -397,7 +407,6 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  padding-bottom: 9px;
 }
 .telefon_2 {
   width: 231px;
@@ -409,6 +418,7 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 .nav_bottom {
+  padding-top: 9px;
   padding-bottom: 9px;
 }
 .call-2 {
